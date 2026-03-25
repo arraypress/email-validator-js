@@ -20,6 +20,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arraypress/email-validator"
+    "url": "https://github.com/arraypress/email-validator-js"
   }
 }
