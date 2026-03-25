@@ -1,0 +1,25 @@
+{
+  "name": "@arraypress/email-validator",
+  "version": "1.0.0",
+  "description": "Practical email validation with provider detection. WordPress-inspired validation logic.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test tests/email-validator.test.js"
+  },
+  "keywords": ["email", "validator", "validation", "provider"],
+  "author": "David Sherlock",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arraypress/email-validator"
+  }
+}
